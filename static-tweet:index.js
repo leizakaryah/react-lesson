@@ -1,4 +1,4 @@
-import React from 'react';
+timport React from 'react';
 import ReactDom from 'react-dom';
 import './index.css';
 import moment from 'moment';
@@ -112,7 +112,7 @@ const RetweetButton = ({count}) => (
     <span className="retweet-button">
       <i className="fa fa-retweet" />
         {count > 0 &&
-        <span className="like-count">
+        <span className="retweet-count">
           {count}
         </span>
         }
